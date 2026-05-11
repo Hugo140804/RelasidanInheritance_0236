@@ -29,5 +29,10 @@ void ibu::tambahAnak(anak* pAnak) {
     DaftarAnak.push_back(pAnak);
 }
 
-
+void ibu::cetakAnak() {
+    cout << "Daftar anak dari Ibu " << nama << ":" << endl;
+    for (size_t i = 0; i < DaftarAnak.size(); i++) {
+        cout << "- " << DaftarAnak[i]->nama << endl;
+    }
+}
         
