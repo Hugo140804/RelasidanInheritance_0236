@@ -1,5 +1,5 @@
-#include <iostream>
 #include <string>
+#include <iostream>
 using namespace std;
 
 class Jantung {
@@ -20,16 +20,3 @@ public:
     Manusia(const string& name) : nama(name) {
         cout << "Manusia " << nama << " Dibuat\n";
     }
-    ~Manusia() {
-        cout << "Manusia " << nama << " Dimatikan\n";
-    }
-};
-
-int main()
-{
-    //deklarasi dan pemberian nilai object pointer varManusia
-    Manusia* varManusia = new Manusia("jono");
-    //mendelete pointer varManusia dari memori
-    delete varManusia;
-    return 0;
-}
