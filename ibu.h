@@ -35,4 +35,6 @@ void ibu::cetakAnak() {
         cout << "- " << DaftarAnak[i]->nama << endl;
     }
 }
+
+#endif
         
